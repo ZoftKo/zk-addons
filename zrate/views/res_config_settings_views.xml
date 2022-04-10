@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.account.inherit.zk.rate</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="account.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@id='update_exchange_rates']" position="after">
+                <div attrs="{'invisible': [('group_multi_currency', '=', False)]}" class="col-12 col-lg-6 o_setting_box"
+                     id="zk_rate"
+                >
+                    <div class="o_setting_left_pane">
+                        <field name="zk_rate"/>
+                    </div>
+                    <div class="o_setting_right_pane">
+                        <label for="zk_rate"/>
+                        <span aria-label="Values set here are company-specific." class="fa fa-lg fa-building-o"
+                              groups="base.group_multi_company" role="img"
+                              title="Values set here are company-specific."
+                        />
+                        <div class="text-muted">
+                            Update USD rates automatically. <br/>
+                            Token required to access historical data.
+                        </div>
+                        <div attrs="{'invisible': [('zk_rate', '=', False)]}" class="content-group">
+                            <div class="row mt16">
+                                <label for="banxico_token" class="col-lg-3 o_light_label"/>
+                                <field name="banxico_token"/>
+                            </div>
+                            <div>
+                                <button class="btn btn-secondary mr-2" type="object" name="test_token">
+                                    <i class="fa fa-fw o_button_icon fa-television"/>
+                                    Test Token
+                                </button>
+                                <a class="btn btn-secondary"
+                                   href="https://www.banxico.org.mx/SieAPIRest/service/v1/token" role="button"
+                                   target="_blank"
+                                >
+                                    <i class="fa fa-fw o_button_icon fa-plus"/>
+                                    Get a new Token
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>

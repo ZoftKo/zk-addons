@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_currency_form" model="ir.ui.view">
+        <field name="name">res.currency.form.inherit.zk.rate</field>
+        <field name="model">res.currency</field>
+        <field name="inherit_id" ref="base.view_currency_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet/group[1]" position="before">
+                <field name="banxico_enabled" invisible="1"/>
+                <div class="oe_button_box" name="button_box">
+                    <button class="oe_stat_button" icon="fa-money" type="action" name="%(update_rate_wizard_action)d">
+                        <div class="o_form_field o_stat_info">
+                            <span class="o_stat_text">Update rate</span>
+                        </div>
+                    </button>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>

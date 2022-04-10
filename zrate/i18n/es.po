@@ -1,0 +1,261 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* zrate
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-10 05:25+0000\n"
+"PO-Revision-Date: 2022-04-10 00:54-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: zrate
+#: model_terms:ir.ui.view,arch_db:zrate.res_config_settings_view_form
+msgid ""
+"<i class=\"fa fa-fw o_button_icon fa-plus\"/>\n"
+"                                    Get a new Token"
+msgstr ""
+"<i class=\"fa fa-fw o_button_icon fa-plus\"/>\n"
+"                                    Obtén un nuevo token"
+
+#. module: zrate
+#: model_terms:ir.ui.view,arch_db:zrate.res_config_settings_view_form
+msgid ""
+"<i class=\"fa fa-fw o_button_icon fa-television\"/>\n"
+"                                    Test Token"
+msgstr ""
+"<i class=\"fa fa-fw o_button_icon fa-television\"/>\n"
+"                                    Probar Token"
+
+#. module: zrate
+#: model_terms:ir.ui.view,arch_db:zrate.res_config_settings_view_form
+msgid ""
+"<span aria-label=\"Values set here are company-specific.\" class=\"fa fa-lg "
+"fa-building-o\" groups=\"base.group_multi_company\" role=\"img\" "
+"title=\"Values set here are company-specific.\"/>"
+msgstr ""
+"<span aria-label=\"Los valores establecidos aquí son específicos de la "
+"empresa.\" class=\"fa fa-lg fa-building-o\" groups=\"base."
+"group_multi_company\" role=\"img\" title=\"Values set here are company-"
+"specific.\"/>"
+
+#. module: zrate
+#: model_terms:ir.ui.view,arch_db:zrate.view_currency_form
+msgid "<span class=\"o_stat_text\">Update rate</span>"
+msgstr "<span class=\"o_stat_text\">Actualizar cambio</span>"
+
+#. module: zrate
+#: code:addons/zrate/wizard/update_rate_wizard.py:0
+#, python-format
+msgid "A Banxico token is needed. Please add it under the Invoicing settings."
+msgstr "Token de Banxico es necesario. Por favor añádelo en los ajustes."
+
+#. module: zrate
+#: model:ir.model.fields,field_description:zrate.field_res_config_settings__zk_rate
+msgid "Automatic USD exchange rates"
+msgstr "Tipo de cambio de dolar automático"
+
+#. module: zrate
+#: model:ir.model.fields,field_description:zrate.field_res_currency__banxico_enabled
+msgid "Banxico's API"
+msgstr "API de Banxico"
+
+#. module: zrate
+#: model_terms:ir.ui.view,arch_db:zrate.update_rate_wizard_view_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: zrate
+#: model:ir.model,name:zrate.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: zrate
+#: model:ir.model,name:zrate.model_res_config_settings
+msgid "Config Settings"
+msgstr "Ajustes"
+
+#. module: zrate
+#: model:ir.model.fields,field_description:zrate.field_zrate_update_wizard__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: zrate
+#: model:ir.model.fields,field_description:zrate.field_zrate_update_wizard__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: zrate
+#: model:ir.model,name:zrate.model_res_currency
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: zrate
+#: model:ir.model.fields,field_description:zrate.field_zrate_update_wizard__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: zrate
+#: model:ir.model.fields,field_description:zrate.field_res_company__zrate
+msgid "Enable ZoftKo's Automatic Exchange Rates functionality"
+msgstr "Activa la actualización de tipo de cambio automática de ZoftKo"
+
+#. module: zrate
+#: code:addons/zrate/models/res_config_settings.py:0
+#, python-format
+msgid "Error. Invalid token!"
+msgstr "Error. Token invalido!"
+
+#. module: zrate
+#: model_terms:ir.ui.view,arch_db:zrate.update_rate_wizard_view_form
+msgid ""
+"Exchange rates will be updated with official rates from Banxico. All "
+"entries\n"
+"                        within this timeframe will be updated."
+msgstr ""
+"El tipo de cambio será actualizado con información oficial de Banxico. Todas "
+"las entradas\n"
+"\t\t\ten este intervalo serán actualizadas."
+
+#. module: zrate
+#: code:addons/zrate/models/res_config_settings.py:0
+#, python-format
+msgid "Failed to connect to Banxico, couldn't check token."
+msgstr "Imposible conectarse a Banxico. El token no pudo ser validado."
+
+#. module: zrate
+#: model:ir.model.fields,field_description:zrate.field_zrate_update_wizard__date_start
+msgid "From"
+msgstr "Desde"
+
+#. module: zrate
+#: model:ir.model.fields,field_description:zrate.field_zrate_update_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: zrate
+#: model:ir.model.fields,field_description:zrate.field_zrate_update_wizard____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: zrate
+#: model:ir.model.fields,field_description:zrate.field_zrate_update_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: zrate
+#: model:ir.model.fields,field_description:zrate.field_zrate_update_wizard__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: zrate
+#: model:ir.model.fields,field_description:zrate.field_res_users__zrate_notify
+msgid "Notifications"
+msgstr "Notificaciones"
+
+#. module: zrate
+#: model:ir.model.fields,help:zrate.field_res_users__zrate_notify
+msgid "Receive notifications when ZoftKo fails to update MXN exchange rates."
+msgstr ""
+"Recibe notificaciones cuando ZoftKo no es capaz de actualizar el tipo de "
+"cambio."
+
+#. module: zrate
+#: model_terms:ir.ui.view,arch_db:zrate.update_rate_wizard_view_form
+msgid "Remember there are no exchange rates on weekends and official holidays."
+msgstr ""
+"Recuerda que no hay tipo de cambio en fines de semana y días festivos "
+"oficiales."
+
+#. module: zrate
+#: code:addons/zrate/models/res_config_settings.py:0
+#, python-format
+msgid "Success. Valid token!"
+msgstr "Éxito. Token valido!"
+
+#. module: zrate
+#: model:ir.model.fields,field_description:zrate.field_res_config_settings__banxico_token
+msgid "Token"
+msgstr "Token"
+
+#. module: zrate
+#: model:ir.model.fields,help:zrate.field_res_config_settings__banxico_token
+msgid "Token provided by Banxico to be able to use their API"
+msgstr "Token provisto por Banxico para poder usar su API"
+
+#. module: zrate
+#: model:ir.model.fields,help:zrate.field_res_config_settings__zk_rate
+msgid ""
+"USD to MXN exchange rates will be automatically updated every day with "
+"official data from DOF."
+msgstr ""
+"El tipo de cambio será actualizado de manera automática todos los días con "
+"información oficial de DOF."
+
+#. module: zrate
+#: model:ir.model.fields,field_description:zrate.field_zrate_update_wizard__date_end
+msgid "Up to"
+msgstr "Hasta"
+
+#. module: zrate
+#: model_terms:ir.ui.view,arch_db:zrate.update_rate_wizard_view_form
+msgid "Update"
+msgstr "Actualizar"
+
+#. module: zrate
+#: model:ir.actions.act_window,name:zrate.update_rate_wizard_action
+msgid "Update Exchange Rates"
+msgstr "Actualizar tipos de cambio"
+
+#. module: zrate
+#: model_terms:ir.ui.view,arch_db:zrate.res_config_settings_view_form
+msgid ""
+"Update USD rates automatically. <br/>\n"
+"                            Token required to access historical data."
+msgstr ""
+"Actualiza el tipo de cambio (USD) automáticamente. <br/>\n"
+"                            Token requerido para acceder a información "
+"histórica."
+
+#. module: zrate
+#: model:ir.model,name:zrate.model_res_users
+msgid "Users"
+msgstr "Usuarios"
+
+#. module: zrate
+#: model:ir.model,name:zrate.model_zrate_update_wizard
+msgid "Wizard to update USD exchange rates"
+msgstr "Wizard para actualizar tipos de cambio (USD)"
+
+#. module: zrate
+#: model:ir.actions.server,name:zrate.update_rate_ir_actions_server
+#: model:ir.cron,cron_name:zrate.update_rate
+#: model:ir.cron,name:zrate.update_rate
+msgid "ZoftKo Exchange Rate Update"
+msgstr "ZoftKo Actualizar Tipo de Cambio"
+
+#. module: zrate
+#: model_terms:ir.ui.view,arch_db:zrate.view_users_form_simple_modif
+msgid "ZoftKo Rates"
+msgstr "ZoftKo Rates"
+
+#. module: zrate
+#: code:addons/zrate/models/res_currency.py:0
+#, python-format
+msgid ""
+"ZoftKo's automatic MXN exchange rate update failed.<br/>Please manually "
+"verify your currency rates.<br/>Remember there is no rate on holidays, in "
+"which case failure is normal."
+msgstr ""
+"ZoftKo tuvo un error al actualizar el tipo de cambio.<br/>Por favor \n"
+"revisa manualmente tus tipos de cambio.<br/>Recuerda que no hay tipo de "
+"cambio en días festivos, de \n"
+"ser este el caso el error es normal."
