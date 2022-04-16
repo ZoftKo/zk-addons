@@ -4,3 +4,4 @@ more effectively.
 
 ## Features
 * Side chatter (as in Odoo Enterprise)
+* Fullscreen in mobile (so it looks like Odoo's Enterprise mobile app)

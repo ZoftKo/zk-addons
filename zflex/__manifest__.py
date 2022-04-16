@@ -9,7 +9,10 @@
     'depends': ['web'],
     'data': ['views/web.xml'],
     'assets': {
-        'web.assets_backend': ['/zflex/static/src/scss/side_chatter.scss']
+        'web.assets_backend': [
+            '/zflex/static/src/scss/side_chatter.scss',
+            '/zflex/static/src/js/FullScreenButton.js',
+        ]
     },
     'license': 'GPL-3',
 }
