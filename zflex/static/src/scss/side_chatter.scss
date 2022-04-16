@@ -1,0 +1,41 @@
+.o_form_view {
+    display: flex;
+    flex-wrap: wrap;
+
+    div.o_form_statusbar, div.o_form_sheet {
+        width: 100%;
+    }
+    div.o_form_sheet {
+        width: calc(100% - 10px);
+    }
+}
+
+.o_form_sheet_bg {
+    align-items: center;
+    display: flex;
+    flex-basis: 70%;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.o_FormRenderer_chatterContainer {
+    flex-basis: 30%;
+    min-width: 400px;
+}
+
+// Styles that are only applied when the chatter goes into the side.
+@media screen and (min-width: 1333px) {
+    .o_form_view {
+        height: 100%;
+    }
+    .o_FormRenderer_chatterContainer {
+        border-left: 1px solid #c8c8d3;
+        max-height: 100%;
+    }
+    div.o_ChatterTopbar_actions {
+        flex-wrap: wrap;
+    }
+    div.o_ChatterTopbar_rightSection {
+        justify-content: flex-start;
+    }
+}
