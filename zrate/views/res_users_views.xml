@@ -4,6 +4,7 @@
         <field name="name">res.users.preferences.form.zk.rate</field>
         <field name="model">res.users</field>
         <field name="inherit_id" ref="base.view_users_form_simple_modif"/>
+        <field name="groups_id" eval="[(4, ref('account.group_account_invoice'))]"/>
         <field name="arch" type="xml">
             <xpath expr="//group[@name='preference_contact']" position="before">
                 <group name="zrate" string="ZoftKo Rates">
